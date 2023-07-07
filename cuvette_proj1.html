@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>cuvette_proj1</title>
+    <style>
+        * {
+        margin: 0px;
+        padding: 0px;
+      }
+      .firstcol {
+        position: relative;
+        background-color: rgba(255, 205, 158, 1);
+        height: 400px;
+      }
+      .secoundcol {
+        background-color: rgba(40, 40, 40, 1);
+        height: 197px;
+      }
+      #f1 {
+        width: 300px;
+        color: rgba(40, 40, 40, 1);
+        font-weight: 700;
+        font-size: 10px;
+        line-height: 25px;
+        font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+        position: relative;
+        top: 80px;
+        left: 50px;
+      }
+      #f2 {
+        width: 250px;
+        color: rgba(72, 72, 72, 1);
+        font-weight: 100;
+        font-size: 10px;
+        line-height: 15px;
+        font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+        position: relative;
+        top: 90px;
+        left: 50px;
+      }
+      #f3 {
+        width: 250px;
+        color: rgba(40, 40, 40, 1);
+        font-weight: 100;
+        font-size: 10px;
+        line-height: 15px;
+        font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+        position: relative;
+        top: 100px;
+        left: 50px;
+      }
+      .input {
+        position: relative;
+        top: 40px;
+      }
+      #box1 {
+        font-size: 10px;
+        position: absolute;
+        top: 70px;
+        left: 50px;
+        border-radius: 5px;
+        text-align: center;
+        padding: 6px;
+        border-color: black;
+      }
+      #box2 {
+        background-color: black;
+        font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+          "Lucida Sans", Arial, sans-serif;
+        color: white;
+        font-size: 10px;
+        position: absolute;
+        border-radius: 5px;
+        text-align: center;
+        top: 70px;
+        left: 200px;
+        padding: 6px;
+      }
+      
+      #f4 {
+        font-size: 8px;
+        font-weight: bold;
+        color: rgba(255, 255, 255, 1);
+        position: absolute;
+        top: 110px;
+        left: 66px;
+      }
+      .list {
+        position: relative;
+      }
+      
+      #list2 {
+        list-style: none;
+        color: rgba(255, 255, 255, 1);
+        font-weight: 40;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+        font-size: 15px;
+        line-height: 25px;
+        position: absolute;
+        top: 20px;
+        left: 60px;
+      }
+      #list3 {
+        list-style: none;
+        color: rgba(255, 255, 255, 1);
+        font-weight: 40;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+        font-size: 15px;
+        line-height: 25px;
+        position: absolute;
+        top: 20px;
+        right: 100px;
+        text-align: end;
+      }
+      #list4 {
+        list-style: none;
+        color: rgba(255, 255, 255, 1);
+        font-weight: 40;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+        font-size: 15px;
+        line-height: 25px;
+        position: absolute;
+        top: 150px;
+        right: 100px;
+        text-align: end;
+      }
+      
+      #logo1 {
+        width: 29.41px;
+        height: 27.42px;
+        position: absolute;
+        top: 80px;
+        right: 100px;
+        text-align: end;
+      }
+      #logo2 {
+        width: 29.41px;
+        height: 27.42px;
+        position: absolute;
+        top: 80px;
+        right: 130px;
+        text-align: end;
+      }
+      #dweep {
+        width: 393.52px;
+        height: 402.45px;
+        position: absolute;
+        top: 1px;
+        right: 130px;
+        text-align: end;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="firstcol">
+      <div id="f1">
+        <h1>
+          An inspiring design delivered to your inbox every morning
+        </h1>
+      </div>
+      <div>
+        <p id="f2">
+          Our team scouts the internet for the best designs, illustrations and
+          art and delivers a truly inspiring one every day to your inbox
+        </p>
+      </div>
+      <div id="f3">
+        <h3>Show me how it looks</h3>
+      </div>
+      <form>
+        <div class="input">
+          <span>
+            <input
+              id="box1"
+              type="email"
+              placeholder="Your e-mail address"
+              class="input"
+            />
+            <input id="box2" type="submit" value="Ragistor Now" class="input" />
+          </span>
+          <p id="f4">Free - No Spam - No Data Sharing</p>
+        </div>
+      </form>
+      <img id="dweep" src="imp.svg" alt="imp" />
+    </div>
+
+    <div class="secoundcol">
+      <div class="list">
+        <ul id="list2">
+          <li>Prompt Generator</li>
+          <li>Dweep Daily</li>
+          <li>All Contributors</li>
+          <li>Your data on Dweep.io</li>
+          <li>Contribute to Dweep</li>
+        </ul>
+        <ul id="list3">
+          <li>Dweep.io</li>
+          <li>Made with love in India</li>
+        </ul>
+        <ul id="list4">
+          <li>hello@dweep.io</li>
+        </ul>
+        <img id="logo1" src="instagram.svg" alt="instgram logo" />
+        <img id="logo2" src="linkdn.svg" alt="linkedin logo" />
+      </div>
+    </div>
+  </body>
+</html>
